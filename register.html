@@ -27,9 +27,7 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#212222">
   <meta name="msapplication-TileColor" content="#212222">
   <meta name="theme-color" content="#ffffff">
-  
-  <!-- jQuery -->
-  <script src="vendor/jquery/jquery.js"></script>
+
 </head>
 
 <body>
@@ -37,9 +35,6 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div id="qcnavbar"></div>
-    <script>
-      $( "#qcnavbar" ).load("navbar.html");
-    </script>
   </nav>
 
   <!-- Page Content -->
@@ -62,10 +57,16 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div id="qcfooter"></div>
-    <script>
-      $( "#qcfooter" ).load("footer.html");
-    </script>
   </footer>
+  <!-- javascipt to load common elements etc -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script>
+    $( "#qcnavbar" ).load("navbar.html");
+  </script>
+  <script>
+    $( "#qcfooter" ).load("footer.html");
+  </script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
