@@ -19,7 +19,7 @@
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 
-  <!-- Favicons -->                 
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -37,20 +37,21 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div id="qcnavbar"></div>
+    <script>
+      $( "#qcnavbar" ).load("navbar.html");
+    </script>
   </nav>
-
-  <script>
-    $( "#qcnavbar" ).load("navbar.html");
-  </script>
 
   <!-- Page Content -->
   <div class="container">
+    <div class="row">
+        <h1 class="my-4">Get ready for QuickCade II!</h1>
 
-    <h1 class="my-4">Get ready for QuickCade II!</h1>
-
-    <p>Please beware this website is still under construction. Full details of the event will be ready by the new year!</p>
-
-    <!-- Marketing Icons Section -->
+        <p>Please beware this website is still under construction. Full details of the event will be ready by the new year!</p>
+    </div>
+    <!-- /.row -->
+    
+    <!-- Action Cards -->
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
@@ -89,8 +90,7 @@
     </div>
     <!-- /.row -->
 
-
-    <!-- Features Section -->
+    <!-- Quick About Section -->
     <div class="row">
       <div class="col-lg-6">
         <h2>QuickCade II</h2>
@@ -111,28 +111,18 @@
       </div>
     </div>
     <!-- /.row -->
-
-    <hr>
-
-
-
+    <!-- Enforce some spacing before the footer. -->
+    <p></p>
   </div>
   <!-- /.container -->
 
-<!-- / wrap -->
-</div>
-<div id="footwrap">
   <!-- Footer -->
-  <footer class="py-5 bg-dark" id=pagefooter>
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; QuickCade 2019</p>
-    </div>
-    <!-- /.container -->
+  <footer class="py-5 bg-dark">
+    <div id="qcfooter"></div>
+    <script>
+      $( "#qcfooter" ).load("footer.html");
+    </script>
   </footer>
-</div>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
