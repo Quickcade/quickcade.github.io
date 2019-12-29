@@ -17,15 +17,15 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #212222;
+  --gray-dark: #101010;
   --primary: #dd1f26;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
-  --danger: #dc3545;
+  --danger: #ff4b60;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #101010;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -4582,6 +4582,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  background-color: rgba(10, 10, 10, 1);
 }
 
 .card-title {
@@ -6578,7 +6579,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #212222 !important;
+  background-color: #111111 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
